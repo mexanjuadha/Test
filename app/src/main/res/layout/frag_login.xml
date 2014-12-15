@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/walktrough_4"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/rel_fb_login"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:text="Sign In With Facebook"
+        android:background="#77FFFFFF"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFF"
+            android:text="Login With Facebook" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
